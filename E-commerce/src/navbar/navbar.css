@@ -1,0 +1,67 @@
+.navbar-link { 
+    text-decoration: none;
+    color: rgb(106, 104, 104);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    padding: 10px;
+   
+}
+.navbar-link:hover { 
+    text-shadow: 0px 3px 10px lightseagreen;
+}
+.navbar-link-active {
+    background-color: lightseagreen;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.navbar-conatainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+    width: 100%;
+
+}
+.links-container {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.acount-icone { 
+    width: 3rem;
+    height: 5rem;
+    color: rgb(13, 60, 57);
+}
+.navbar-acount-basket { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.basket-icone { 
+    width: 3rem;
+    height: 5rem;
+    color: white;
+}
+.basket-container {
+    background-color:  rgb(13, 60, 57);
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.basket-container p { 
+    font-size: 1.5rem;
+    color: white;
+}
